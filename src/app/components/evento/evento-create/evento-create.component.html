@@ -1,0 +1,50 @@
+<section id="add_new_event" class="section-with-bg">
+    <div class="container wow fadeInUp">
+        <ul class="nav" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#adicionar-evento" role="tab" data-toggle="tab">Cadastre seu evento em nosso site!</a>
+            </li>
+        </ul>
+        <div class="tab-content row justify-content-center">
+            <div role="tabpanel" class="col-12 col-md-10 tab-pane fade show active" id="adicionar-evento">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <label>Nome do solicitante</label>
+                        <input type="text" class="form-control" [(ngModel)]="evento.nomeSolicitante" name="nomeSolicitante">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label>Descrição</label>
+                        <input type="text" class="form-control" [(ngModel)]="evento.descricao" name="descricao">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label>Data</label>
+                        <input type="date" class="form-control" [(ngModel)]="evento.data" name="data">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label>Preço</label>
+                        <input type="text" class="form-control" [(ngModel)]="evento.preco" name="preco">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label>Limite de Pessoas</label>
+                        <input type="text" class="form-control" [(ngModel)]="evento.limitePessoas" name="limitePessoas">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label>Endereço</label>
+                        <input type="text" class="form-control" [(ngModel)]="evento.enderecoEvento" name="enderecoEvento">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label>Quantidade de Ingressos</label>
+                        <input type="text" class="form-control" [(ngModel)]="evento.quantidadeIngresso" name="quantidadeIngresso">
+                    </div>
+                </div>       
+                <div class="row">
+                    <div class="col-12 col-md-5 d-flex justify-content-end">
+                        <hr class="mb-4">
+                        <button mat-raised-button (click)="createEvento()" color="warn">Cadastrar</button>
+                        <button mat-raised-button (click)="cancelarEvento()" color="accent">Cancelar</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
