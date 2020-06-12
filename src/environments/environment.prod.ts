@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  eventosApiUrl: 'http://localhost:8090/api'
+  ApiUrl: 'http://localhost:8090/api/'
 };

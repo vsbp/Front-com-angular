@@ -11,38 +11,36 @@ import { Evento } from '../evento.model';
 export class EventoCreateComponent implements OnInit {
 
   evento: Evento = {
- 
     nomeSolicitante: '',
+    nomeEvento: '',
     descricao: '',
     data: '',
     preco: null,
-    limitePessoas: null,
     enderecoEvento: '',
-    quantidadeIngresso: null
+    quantidadeIngresso: null,
+    patrocinadorEvento: ''
   }
-
 
   constructor(private eventoService: EventoService, private router: Router ) { }
 
-  ngOnInit(): void { }
-
-
-
+  ngOnInit(): void {
+    
+  }
 
   createEvento(): void{
     this.eventoService.create(this.evento).subscribe(() => {
-       this.eventoService.showMessege('Evento criado com sucesso!')
-       this.router.navigate(['/evento'])
-    }) 
+    this.eventoService.showMessege('Evento cadastrado com sucesso!')
+    })
   }
-    
-    
-
-   
 
   cancelarEvento(): void{
     this.router.navigate(['/evento'])
+
   }
-  
+
+  tabelasEvento(): void{
+    this.router.navigate(['/evento/tabela'])
+
+  }
 
 }

@@ -59,6 +59,11 @@
             }
           }
         },
+        "architect": {
+          "options": {
+              "proxyConfig": "src/proxy.conf.json"
+          }
+        },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {

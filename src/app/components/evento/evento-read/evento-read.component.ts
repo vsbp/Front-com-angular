@@ -10,6 +10,8 @@ import { EventoService } from '../evento.service';
 export class EventoReadComponent implements OnInit {
 
   eventos: Evento[]
+  displayedColumns = ['id', 'nomeEvento', 'data', 'preco', 'patrocinadorEvento', 'action'];
+
 
   constructor(private eventoService: EventoService) { }
 
@@ -19,6 +21,5 @@ export class EventoReadComponent implements OnInit {
       console.log(eventos)
     })
   }
-  
 
 }

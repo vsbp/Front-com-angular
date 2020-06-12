@@ -1,198 +1,103 @@
 {
-  "eventos": [
+  "evento": [
     {
       "id": 1,
-      "descricao": "Cover da banda Linkin Park",
-      "data": "2021-02-01",
-      "preco": 80,
-      "limitePessoas": 200,
-      "enderecoEvento": "Avenida Itaquera, 189",
-      "quantidadeIngresso": 180
-    },
-    {
-      "id": 2,
-      "descricao": "Show - Jorge e Mateus",
-      "data": "2020-12-01",
-      "preco": 130,
-      "limitePessoas": 1000,
-      "enderecoEvento": "Paulista",
-      "quantidadeIngresso": 970
-    },
-    {
-      "id": 3,
+      "nomeSolicitante": "teste",
+      "nomeEvento": "xxxperience",
       "descricao": "Festival xxxperience",
       "data": "2020-12-28",
       "preco": 180,
-      "limitePessoas": 10000,
       "enderecoEvento": "Itu",
-      "quantidadeIngresso": 9800
+      "quantidadeIngresso": 9800,
+      "patrocinadorEvento": "Vitória"
     },
     {
+      "id": 3,
+      "nomeSolicitante": "teste",
+      "nomeEvento": "xxxperience",
+      "descricao": "Festival xxxperience",
+      "data": "2020-12-28",
+      "preco": 180,
+      "enderecoEvento": "Itu",
+      "quantidadeIngresso": 9800,
+      "patrocinadorEvento": "Vitória"
+    },
+    {
+      "nomeSolicitante": "",
+      "nomeEvento": "",
       "descricao": "",
       "data": "",
       "preco": null,
-      "limitePessoas": null,
       "enderecoEvento": "",
       "quantidadeIngresso": null,
-      "id": 4
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 5
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
+      "patrocinadorEvento": "",
       "id": 6
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 7
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 8
-    },
-    {
-      "descricao": "sss",
-      "data": "2020-06-18",
-      "preco": "234",
-      "limitePessoas": "21",
-      "enderecoEvento": "ggg",
-      "quantidadeIngresso": "1",
-      "id": 9
-    },
-    {
-      "descricao": "sss",
-      "data": "2020-06-18",
-      "preco": "234",
-      "limitePessoas": "21",
-      "enderecoEvento": "ggg",
-      "quantidadeIngresso": "1",
-      "id": 10
-    },
-    {
-      "descricao": "sss",
-      "data": "2020-06-18",
-      "preco": "234",
-      "limitePessoas": "21",
-      "enderecoEvento": "ggg",
-      "quantidadeIngresso": "1",
-      "id": 11
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 12
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 13
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 14
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 15
-    },
-    {
-      "descricao": "",
-      "data": "",
-      "preco": null,
-      "limitePessoas": null,
-      "enderecoEvento": "",
-      "quantidadeIngresso": null,
-      "id": 16
-    },
-    {
-      "descricao": "form-site",
-      "data": "2020-06-24",
-      "preco": "23.98",
-      "limitePessoas": "50",
-      "enderecoEvento": "fgggh",
-      "quantidadeIngresso": "50",
-      "id": 17
-    },
-    {
-      "descricao": "exame",
-      "data": "2020-12-29",
-      "preco": "250.00",
-      "limitePessoas": "12",
-      "enderecoEvento": "kehdbh",
-      "quantidadeIngresso": "10",
-      "id": 18
     }
   ],
-  "usuarios": [
+  "cadastro": [
     {
-      "id": 4,
-      "email": "example@example.com",
-      "senha": "123",
-      "cpf": "123.456.789-10",
-      "nome": "João da Silva",
-      "dataNascimento": "1992-04-08",
-      "telefone": "98765-5432"
+      "email": "marcos.vb.pinho@live.com",
+      "cpf": "123.456.789-09",
+      "nome": "Stefany",
+      "dataNasc": "2020-06-16",
+      "telefone": "11985416220",
+      "id": 1
+    }
+  ],
+  "casa": [
+    {
+      "nomeCasa": "",
+      "enderecoCasa": "",
+      "qtddPessoas": "",
+      "id": 1
     },
     {
-      "id": 5,
-      "email": "example@example.com",
-      "senha": "123",
-      "cpf": "123.456.789-10",
-      "nome": "Pietra Abreu",
-      "dataNascimento": "1999-11-28",
-      "telefone": "98765-5432"
+      "nomeCasa": "",
+      "enderecoCasa": "",
+      "qtddPessoas": "",
+      "id": 2
     },
     {
-      "id": 6,
-      "email": "example@example.com",
-      "senha": "123",
-      "cpf": "123.456.789-10",
-      "nome": "Sophia Charlotte",
-      "dataNascimento": "1997-10-01",
-      "telefone": "98765-5432"
+      "nomeCasa": "cccc",
+      "enderecoCasa": "wwww",
+      "qtddPessoas": "1234",
+      "id": 3
+    }
+  ],
+  "compra": [
+    {
+      "nome": "",
+      "sobrenome": "",
+      "email": "",
+      "telefone": "",
+      "faixaEtaria": null,
+      "endereco": "",
+      "numeroCasa": null,
+      "cep": "",
+      "numeroCartao": "",
+      "nomeTitular": "",
+      "dataVenc": "",
+      "anoVenc": "",
+      "cvv": null,
+      "numeroParcelas": null,
+      "id": 1
     },
     {
-      "id": 7
+      "nome": "aaaa",
+      "sobrenome": "aaa",
+      "email": "aaaa",
+      "telefone": "aaaa",
+      "faixaEtaria": "11",
+      "endereco": "aaaaa",
+      "numeroCasa": "11",
+      "cep": "12345677",
+      "numeroCartao": "12345t6",
+      "nomeTitular": "aaaa",
+      "dataVenc": "23451",
+      "anoVenc": "",
+      "cvv": "123",
+      "numeroParcelas": "12",
+      "id": 2
     }
   ]
 }

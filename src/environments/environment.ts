@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  eventosApiUrl: 'http://localhost:3000'
+  ApiUrl: 'http://localhost:8090/api/'
 };
 
 /*

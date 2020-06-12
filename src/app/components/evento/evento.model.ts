@@ -1,10 +1,11 @@
 export interface Evento{
     id?: number
-    nomeSolicitante: String
-    descricao: String
-    data: String
+    nomeSolicitante: string
+    nomeEvento: string
+    descricao: string
+    data: string
     preco: number
-    limitePessoas: number
-    enderecoEvento: String
+    enderecoEvento: string
     quantidadeIngresso: number
+    patrocinadorEvento: string
 }
